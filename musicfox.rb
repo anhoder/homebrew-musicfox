@@ -8,7 +8,8 @@ class Musicfox < Formula
   version "1.0.0"
   sha256 "45e6999f66db2aae8d76ba67469c54c16c4f9161b93792e3446ca80cc358a5d0"
 
-  depends_on "mpg123" "terminal-notifier"
+  depends_on "mpg123"
+  depends_on "terminal-notifier"
 
   def install
     system 'mv musicfox.mac musicfox'
