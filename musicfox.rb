@@ -8,7 +8,7 @@ class Musicfox < Formula
   version "1.0.0"
   sha256 "45e6999f66db2aae8d76ba67469c54c16c4f9161b93792e3446ca80cc358a5d0"
 
-  # depends_on "cmake" => :build
+  depends_on "mpg123"
 
   def install
     system 'mv musicfox.mac musicfox'
