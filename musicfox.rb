@@ -6,7 +6,7 @@ class Musicfox < Formula
   homepage "https://github.com/AlanAlbert/musicfox"
   url "https://github.com/AlanAlbert/musicfox/releases/download/1.1.0/musicfox.mac"
   version "1.1.0"
-  sha256 "45e6999f66db2aae8d76ba67469c54c16c4f9161b93792e3446ca80cc358a5d0"
+  sha256 "d7ce97a5f99d0b02121c4e126d81444d4842ba58e4346d8a1ede510f480c2896"
 
   depends_on "mpg123"
   depends_on "terminal-notifier"
