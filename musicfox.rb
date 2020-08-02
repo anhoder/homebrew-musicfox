@@ -4,9 +4,9 @@
 class Musicfox < Formula
   desc "musicfox是一款使用Dart编写的网易云音乐命令行程序。"
   homepage "https://github.com/AlanAlbert/musicfox"
-  url "https://github.com/AlanAlbert/musicfox/releases/download/1.1.0/musicfox.mac"
-  version "1.1.0"
-  sha256 "d7ce97a5f99d0b02121c4e126d81444d4842ba58e4346d8a1ede510f480c2896"
+  url "https://github.com/AlanAlbert/musicfox/releases/download/1.2.0/musicfox.mac"
+  version "1.2.0"
+  sha256 "44f66ea3bdb6c6c2a8d4022c7ac082df01436bdb73bb5a5740324ac3de3a611b"
 
   depends_on "mpg123"
   depends_on "terminal-notifier"
